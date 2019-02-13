@@ -1,0 +1,10 @@
+Patrick Phillips
+HW 1 Perceptron 
+1/25/2019
+CSC 246
+
+First I implemented perceptron algorithm. 
+Experimenting with the performance as a function of iterations(which I plotted in the file Graph.png) I found that the accuracy did not really change as iterations increased.
+I decided to use my development data to loop through and choose which set of weights for iterations 1-50 was optimal for the development data. 
+By using the development data this way I avoid overfitting (although this didn't seem to be a problem based on the graphs) and this will reasonably likely be close to optimal on the test data as well since the accuracy performance of the two seemed very similar when I compared them.
+ 
