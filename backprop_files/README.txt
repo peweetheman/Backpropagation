@@ -3,7 +3,7 @@ CSC 246
 Multilayer Perceptron
 
 I first completed the basic framework for the neural network.
-Since there were only two layer I did not loop through layers in backprop assign deltas etc.
+Since there were only two layers I did not loop through layers in backprop assign deltas etc.
 
 In my code I use the development data to loop through and choose which set of weights over all iterations was optimal, 
 this way avoiding overfitting the training data.
