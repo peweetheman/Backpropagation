@@ -3,6 +3,8 @@
 
 In this project I create a two layer neural network and implement back propogation from scratch.
 
+![](Accuracy_vs_Iterations.png)
+
 In my code I use the development data to loop through and choose which set of weights over all iterations was optimal, 
 this way avoiding overfitting the training data.
 
