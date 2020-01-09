@@ -1,6 +1,6 @@
 # Backpropagation 
 ## Patrick Phillips
-This project implements a perceptron and then multilayer perceptron (neural net) from scratch and tests them on housing data from the US census in a simple classifcation problem deciding whether the house has price greater than $50,000.
+This project implements a perceptron and then multilayer perceptron (neural net) from scratch and tests them on housing data from the US census in a simple classification problem deciding whether the house has price greater than $50,000.
 
 First I implemented the perceptron algorithm in the folder [perceptron](https://github.com/peweetheman/Backpropagation/tree/master/perceptron). Experimenting with the performance as a function of iterations(which I plot below), I found that the accuracy did not really change as iterations increased. I use development data to loop through and choose which set of weights for iterations 1-50 performed best to then use on test data. By using the development data this way I help avoid overfitting.
 
